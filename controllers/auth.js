@@ -39,3 +39,7 @@ exports.signup = (req, res, next) => {
     });
   });
 };
+
+exports.signin = (req, res, next) => {
+  res.send({ token: token(req.user) });
+};
