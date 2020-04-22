@@ -4,4 +4,6 @@ Learn how to wire up authentication with node and mongoose.
 
 ## Todo
 
-- complete user login with local strategy
+~~- complete user login with local strategy~~
+
+- Refactor using async/await syntax
